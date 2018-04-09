@@ -5,7 +5,7 @@ import os, time, sys
 
 formats = ["jpg", "gif", "png"]			# approved extensions
 media_path = "../media/"			# relative path to media folder
-overlay_file = "../media/overlay.png"		# filename of the overlay
+overlay_file = "overlay.png"			# filename of the overlay
 files = os.listdir(media_path)			# read filenames into a list
 delay = 10					# seconds of delay between slides
 
